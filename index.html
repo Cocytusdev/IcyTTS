@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      margin-top: 1.5em;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 0.5em;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    h3 {
+      font-size: 1.2em;
+      margin-top: 1em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 1em;
+    }
+    ol {
+      margin-left: 20px;
+      margin-bottom: 1em;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      background-color: #fff;
+      padding: 15px 20px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .footer {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 2em;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p>
+    This Privacy Policy describes how the application (hereinafter, <strong>“the App”</strong>) collects, uses, shares, and protects its users’ information. By downloading or using the App, you agree to the practices described in this policy. If you need more details or have questions, see the “Contact” section at the end.
+  </p>
+
+  <div class="section">
+    <h2>1. Information We Collect</h2>
+
+    <h3>1.1 Information Provided Directly by the User</h3>
+    <ul>
+      <li>
+        <strong>Quick Phrases and User Preferences:</strong><br />
+        The App allows you to save “quick phrases” and configuration options (e.g., selected TTS voice, stroke color, speech rate). These items are stored locally on your device and are not transmitted to external servers.
+      </li>
+      <li>
+        <strong>In-App Purchases:</strong><br />
+        When you purchase “IcyTTS Premium” or any other in-app product through Google Play, payment information (e.g., Google Play account details) is processed according to the store’s terms. The App does not handle credit card data directly; that information is managed by Google Play Store.
+      </li>
+    </ul>
+
+    <h3>1.2 Information Collected Automatically</h3>
+    <ul>
+      <li>
+        <strong>Advertising Identifier (Advertising ID):</strong><br />
+        To display ads, the App uses your device’s Advertising ID (an anonymous identifier that does not reveal your personal identity). Google AdMob may collect this ID to target ads in accordance with its own policies.
+      </li>
+      <li>
+        <strong>Performance Metrics and Crash Logs (Anonymous):</strong><br />
+        The AdMob SDK and Google Mobile Ads may send performance metrics (e.g., load times or crashes) to improve the advertising experience. This is done anonymously and is not linked to your personal data.
+      </li>
+    </ul>
+
+    <h3>1.3 Ink Recognition and Voice Data (On-Device)</h3>
+    <ul>
+      <li>
+        <strong>On-Device Digital Ink Processing with ML Kit:</strong><br />
+        When you draw on the canvas, ML Kit (Digital Ink Recognition) analyzes that information locally on your device to convert strokes into text. <strong>This information is never sent to external servers</strong>, as all recognition computations occur on the device.
+      </li>
+      <li>
+        <strong>Use of TextToSpeech (TTS):</strong><br />
+        The App uses Android’s native TextToSpeech API to play back the recognized text. The processed text never leaves your device or is shared with third parties.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>2. How We Use Information</h2>
+
+    <h3>2.1 Core Functionality</h3>
+    <ul>
+      <li>
+        <strong>Recognition and Voice Playback:</strong><br />
+        Strokes you draw are processed locally with ML Kit to obtain text, which is then read aloud with TTS on your device. This allows you to hear what you write without your content leaving your device.
+      </li>
+      <li>
+        <strong>Local Storage of Preferences:</strong><br />
+        Quick phrases and settings (voice choice, stroke color, speech rate) are stored exclusively on your device to personalize your experience.
+      </li>
+    </ul>
+
+    <h3>2.2 Advertising</h3>
+    <ul>
+      <li>
+        <strong>Banner and Rewarded Ads:</strong><br />
+        The App displays ads that rely on anonymous data (Advertising ID, IP address, usage metrics) for ad targeting. The App does not store or share personal data for this purpose; AdMob handles all ad-related data per its policies.
+      </li>
+      <li>
+        <strong>Rewarded Ad Frequency:</strong><br />
+        Every 10 ML Kit recognition events, if you are using the free version, a full-screen ad (RewardedAd) is shown. It does not require any additional information beyond the Advertising ID.
+      </li>
+    </ul>
+
+    <h3>2.3 In-App Purchases</h3>
+    <ul>
+      <li>
+        If you choose to purchase any in-app product, the transaction is processed through Google Play Billing. The App only receives a confirmation flag and does not store payment details.
+      </li>
+      <li>
+        Once the Premium version is purchased, banner and RewardedAds are disabled.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>3. Information Sharing with Third Parties</h2>
+
+    <h3>3.1 Service Providers</h3>
+    <ul>
+      <li>
+        <strong>Google ML Kit:</strong><br />
+        ML Kit processes ink recognition data on your device. It may download models or usage metrics (without personal data) to improve its API functionality.
+      </li>
+      <li>
+        <strong>Google AdMob:</strong><br />
+        AdMob may collect anonymous data (Advertising ID, IP, performance metrics) to personalize ads. The App does not share your email, name, or other personal information with AdMob.
+      </li>
+      <li>
+        <strong>Google Play Billing:</strong><br />
+        Google Play handles billing and manages your financial information; the App only receives your purchase status.
+      </li>
+    </ul>
+
+    <h3>3.2 Legal Obligations</h3>
+    <p>
+      We may disclose your information (e.g., Advertising ID or anonymous crash logs) if required by law to cooperate with authorities or investigate fraud. Your drawn strokes, recognized text, or TTS data will never be shared in such investigations.
+    </p>
+
+    <h3>3.3 Sale of Data</h3>
+    <p>
+      <strong>We do not sell your personal information or content.</strong> The App does not share your text, voice recordings, or drawing strokes with third parties. Only essential data is shared with ML Kit, AdMob, and Google Play to ensure the App functions properly.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>4. Data Retention and Deletion</h2>
+    <ul>
+      <li>
+        <strong>Advertising and Usage Data:</strong><br />
+        Any data collected by AdMob (Advertising ID, metrics) is managed by Google according to its policies. We do not retain ad history on our side.
+      </li>
+      <li>
+        <strong>Local Preferences:</strong><br />
+        Quick phrases and personalized settings remain on your device until you delete the App or clear its data. We never send this information to any server.
+      </li>
+      <li>
+        <strong>Ink Recognition and TTS Data:</strong><br />
+        These are processed in-memory for each session and are not stored persistently or transmitted remotely.
+      </li>
+    </ul>
+    <p>
+      If you wish to delete all local data, you can:
+    </p>
+    <ol>
+      <li>Uninstall the App from your device (SharedPreferences will be removed).</li>
+      <li>Go to Settings → Apps → IcyTTS → Storage → Clear data.</li>
+    </ol>
+  </div>
+
+  <div class="section">
+    <h2>5. Security</h2>
+    <ul>
+      <li>
+        <strong>Encryption in Transit:</strong><br />
+        All communications between the App and Google servers occur over TLS/HTTPS to protect your information from unauthorized access.
+      </li>
+      <li>
+        <strong>On-Device Processing:</strong><br />
+        Ink recognition and voice synthesis occur locally, so your strokes and text never leave your device.
+      </li>
+      <li>
+        <strong>Crash Log Handling:</strong><br />
+        Any error reports sent to Google via Crashlytics (or another service) contain technical details (stack trace, device configuration) but do not include recognized text or drawing strokes.
+      </li>
+    </ul>
+  </div>
+
+  <div class="section">
+  <h2>6. Children’s Privacy</h2>
+  <ul>
+    <li>
+      <strong>Allowed for All Ages:</strong><br />
+      The App is available to users of any age. If you are under 13, please use it under adult supervision. We want to emphasize that we do <em>not</em> knowingly collect any personal information from children under 13.
+    </li>
+    <li>
+      <strong>Compliance with COPPA:</strong><br />
+      We do not intentionally collect or store any personal data—like name, email address, phone number, or any other identifying information—from anyone under 13. All processing happens on the device; no child’s data is ever sent to our servers or third parties.
+    </li>
+  </ul>
+</div>
+
+  <div class="section">
+    <h2>7. User Rights</h2>
+
+    <h3>7.1 Access and Correction</h3>
+    <p>
+      You can review, modify, or delete quick phrases and preferences within the App or by clearing the App’s data on Android.
+    </p>
+
+    <h3>7.2 Opting Out of Personalized Advertising</h3>
+    <p>
+      If you wish to disable personalized advertising in AdMob:
+      <ol>
+        <li>Open Google Settings on your device.</li>
+        <li>Go to “Ads” and enable “Opt out of Ads Personalization.”</li>
+      </ol>
+      This will limit the use of your Advertising ID for targeting.
+    </p>
+
+    <h3>7.3 Data Deletion or Information Requests</h3>
+    <p>
+      Although the App does not store your text or strokes on servers, you may request usage data (e.g., purchase records) by contacting us in the “Contact” section.
+    </p>
+    <p>
+      <strong>GDPR/CCPA Eligibility:</strong> If you are a resident of the European Economic Area (EEA) or California, you have the right to:
+      <ul>
+        <li>Access your personal data collected by the App.</li>
+        <li>Request portability or deletion of your data (in our case, this applies mainly to anonymous AdMob metrics managed by Google).</li>
+        <li>Object to processing for certain purposes, such as personalized advertising (see how to do this on your device via Google Settings).</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>8. Third-Party Links</h2>
+    <p>
+      The App may contain links to third-party policies for transparency:
+      <ul>
+        <li><strong>Google Privacy Policy</strong> (includes AdMob, ML Kit, Play Billing):
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+            https://policies.google.com/privacy
+          </a>
+        </li>
+        <li><strong>Google Ads Personalization Opt-Out</strong>:
+          <a href="https://adssettings.google.com/authenticated" target="_blank" rel="noopener noreferrer">
+            https://adssettings.google.com/authenticated
+          </a>
+        </li>
+      </ul>
+    </p>
+    <p>
+      We are not responsible for the privacy practices of external sites or services. Please review their policies before sharing any personal information.
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>9. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy at any time to reflect changes in the App or applicable laws. The latest version will be indicated with its “Last Updated” date below. When material changes occur, a notice will be displayed in the App or sent via email (if you have provided one). We recommend reviewing this section periodically.
+    </p>
+    <p>
+      <strong>Current Version:</strong> v1.0.0<br />
+      <strong>Last Updated:</strong> June 3, 2025
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>10. Contact</h2>
+    <p>
+      If you have questions, requests for access, correction, or deletion of data, or any other inquiries related to this Privacy Policy, please contact us:
+    </p>
+    <ul>
+      <li><strong>Email:</strong> cocytusdev@gmail.com</li>
+      <li><strong>Subject Line:</strong> “Privacy – IcyTTS”</li>
+    </ul>
+    <p>
+      We will respond within 30 business days.
+    </p>
+  </div>
+
+  <div class="footer">
+    © 2025 Cocytus. All rights reserved.
+  </div>
+
+</body>
+</html>
