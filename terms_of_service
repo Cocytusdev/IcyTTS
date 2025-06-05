@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Terms of Use – IcyTTS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0 16px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, section {
+      margin-bottom: 24px;
+    }
+    h1, h2, h3 {
+      color: #222;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 24px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 8px;
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 24px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 4px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-top: 16px;
+    }
+    p {
+      margin: 8px 0;
+    }
+    ul, ol {
+      margin: 8px 0 8px 24px;
+    }
+    footer {
+      margin-top: 32px;
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>IcyTTS Terms of Use</h1>
+    <p><strong>Last updated:</strong> June 4, 2025</p>
+  </header>
+
+  <section>
+    <h2>1. Developer Identification</h2>
+    <p><strong>App Name:</strong> IcyTTS<br/>
+       <strong>Developer:</strong> Cocytus Dev<br/>
+       <strong>Contact Email:</strong> cocytusdev@gmail.com</p>
+  </section>
+
+  <section>
+    <h2>2. Purpose and Scope</h2>
+    <p>IcyTTS is an Android application that converts handwritten input into text and generates speech output (Text-to-Speech). It offers two modes:</p>
+    <ol>
+      <li><strong>Free version:</strong> with ads (banners and rewarded ads) and basic features (up to 3 quick phrases, handwriting recognition and speech, stroke color selection, local TTS voice selection, etc.).</li>
+      <li><strong>Premium version (IcyTTS Premium):</strong> removes ads, enables up to 10 quick phrases, and provides access to future features.</li>
+    </ol>
+    <p>By downloading, installing, or using IcyTTS, you agree to these Terms of Use (“Terms”). If you do not agree with any part of these Terms, please do not use the app.</p>
+  </section>
+
+  <section>
+    <h2>3. Access and Registration</h2>
+    <p><strong>Free installation:</strong> IcyTTS is available at no cost on Google Play. Premium features require an in-app purchase through Google Play Billing.</p>
+    <p><strong>Minimum requirements:</strong> Android device running version 6.0 or higher and an internet connection.</p>
+    <p><strong>Google Account (optional):</strong> Not required for basic features, but necessary for managing purchases via Google Play.</p>
+  </section>
+
+  <section>
+    <h2>4. In-App Purchases and Premium Subscription</h2>
+    <h3>4.1 Premium Product</h3>
+    <p>“IcyTTS Premium” is managed through Google Play Billing.</p>
+
+    <h3>4.2 Pricing and Billing</h3>
+    <p>Pricing is shown on Google Play at the time of purchase. Google Play will handle payment according to its terms.</p>
+
+    <h3>4.3 Activation</h3>
+    <p>Once the purchase is confirmed via Google Play, the app will automatically unlock Premium features (remove ads and expand quick phrase limits).</p>
+
+    <h3>4.4 Cancellations and Refunds</h3>
+    <ul>
+      <li>All refund or cancellation requests must be processed through Google Play in accordance with its official policies.</li>
+      <li>Refunds are not offered within the app; exceptions are subject to Google Play's criteria.</li>
+    </ul>
+
+    <h3>4.5 Automatic Recognition of Previous Purchases</h3>
+    <p>IcyTTS checks for purchases at every startup and will automatically reactivate Premium features if a previous purchase is detected.</p>
+  </section>
+
+  <section>
+    <h2>5. Advertising and Integration</h2>
+    <h3>5.1 Free Version with Ads</h3>
+    <ul>
+      <li>Banners are shown at the top of the screen.</li>
+      <li>A full-screen ad is displayed after every 10 TTS reads.</li>
+    </ul>
+
+    <h3>5.3 Ad Consent</h3>
+    <p>You agree to see graphical and video ads while using the free version. We do not control third-party ad content.</p>
+  </section>
+
+  <section>
+    <h2>7. Licensing and Intellectual Property</h2>
+    <h3>7.1 TTS Framework</h3>
+    <ul>
+      <li>Text-to-Speech relies on native Android TTS engines; their licenses and limitations are subject to Google and the device manufacturer.</li>
+    </ul>
+
+    <h3>7.2 App Content</h3>
+    <p>All source code, designs, icons, text, and graphical resources are owned by Cocytus, except for third-party components. You may not reproduce, modify, distribute, or extract any part of IcyTTS outside of legitimate app usage.</p>
+
+    <h3>7.3 User Quick Phrases</h3>
+    <p>Quick phrases added or deleted by you remain your property. They are stored locally and are never shared externally.</p>
+  </section>
+
+  <section>
+    <h2>8. User Conduct</h2>
+    <h3>8.1 Permitted Use</h3>
+    <ul>
+      <li>Draw freely to recognize handwriting.</li>
+      <li>Listen to generated TTS speech.</li>
+      <li>Customize stroke color, TTS voice, and speed.</li>
+      <li>Add quick phrases (3 for free, 10 with Premium).</li>
+    </ul>
+
+    <h3>8.2 Prohibited Use</h3>
+    <ul>
+      <li>Sharing illegal, defamatory, violent, pornographic, hateful, or offensive content via TTS or text.</li>
+      <li>Modifying or tampering with the app to bypass Premium features.</li>
+      <li>Distributing cracked, hacked, or copyright-infringing versions.</li>
+    </ul>
+
+    <h3>8.3 Sanctions</h3>
+    <p>Inappropriate use (e.g., offensive voice outputs or misuse of licenses) may result in feature deactivation or purchase restrictions.</p>
+  </section>
+
+  <section>
+    <h2>10. Limitation of Liability</h2>
+    <h3>10.1 Text Recognition</h3>
+    <p>Recognition accuracy depends on handwriting clarity, style, and lighting. We do not guarantee 100% accuracy.</p>
+
+    <h3>10.2 Voice Output</h3>
+    <p>Speech quality depends on the TTS engine and device hardware. We are not responsible for hardware defects or TTS limitations.</p>
+
+    <h3>10.3 Service Availability</h3>
+    <p>Downloading models, displaying ads, and using voice cloning require an internet connection. Functionality is not guaranteed offline.</p>
+
+    <h3>10.4 Damages</h3>
+    <p>Under no circumstances shall Cocytus be liable for indirect damages, loss of data, or any harm resulting from the use (or inability to use) IcyTTS.</p>
+  </section>
+
+  <section>
+    <h2>11. Modifications and Updates</h2>
+    <h3>11.1 Changes to the Service</h3>
+    <p>Cocytus reserves the right to modify, pause, or discontinue features (including ads, Premium models) at any time without detailed notice, beyond general announcements on Google Play or in-app messages.</p>
+
+    <h3>11.2 Terms Updates</h3>
+    <p>These Terms may be updated periodically. The current version is always accessible in the app (Settings → About → Terms). Major changes will be notified via in-app messages.</p>
+
+    <h3>11.3 App Updates</h3>
+    <p>To receive new features and bug fixes, it is recommended to always install the latest version from Google Play.</p>
+  </section>
+
+  <section>
+    <h2>12. Environment and Compatibility</h2>
+    <h3>12.1 Preference Persistence</h3>
+    <p>All your settings (voice, color, speed, quick phrases) are saved locally. Uninstalling the app deletes them permanently.</p>
+
+    <h3>12.2 Hardware Limitations</h3>
+    <p>Touch recognition accuracy depends on your device’s hardware. Older or damaged screens may affect performance.</p>
+  </section>
+
+  <section>
+    <h2>13. Governing Law and Jurisdiction</h2>
+    <p>These Terms are governed by the laws of [your country/state], subject to stricter consumer protection standards. Disputes shall be resolved in courts located in [your city/country].</p>
+  </section>
+
+  <section>
+    <h2>14. Contact</h2>
+    <p>For inquiries, support, or legal matters, please contact:<br/>
+       <strong>Email:</strong> cocytusdev@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>By using IcyTTS, you acknowledge that you have read, understood, and fully accept these Terms of Use. If you do not agree, please do not use the app.</p>
+  </footer>
+
+</body>
+</html>
